@@ -1,0 +1,10 @@
+.jumbotron{
+  background-image: url(../img/jumbotron2.jpg);
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h1{
+  max-width: 40%;
+  font-size: 50px;
