@@ -8,3 +8,13 @@
 .jumbotron h1{
   max-width: 40%;
   font-size: 50px;
+}
+
+.question{
+  padding: 20px 0;
+  max-width: 50%;
+}
+
+#css, #ruby, #csharp, #no-track{
+  display: none;
+}

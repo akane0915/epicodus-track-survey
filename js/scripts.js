@@ -9,10 +9,11 @@ $(function(){
     var personalityInput = $("#personality").val();
     var workInput = $("#work").val();
     var roomInput = $("#room").val();
-    console.log(personalityInput);
-    console.log(workInput);
-    console.log(roomInput);
-  });
+
+    if (personalityInput === "Creative, Design-oriented") {
+
+    }
+  }); // Form submit function close
 
 
 
