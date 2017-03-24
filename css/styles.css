@@ -56,3 +56,15 @@ h2, h3 {
 #css, #ruby, #csharp, #php, #no-track{
   display: none;
 }
+
+/***Buttons***/
+.epicodus-button{
+  background-color: #00b3b4;
+  color: white;
+  text-decoration: none;
+}
+
+/***Footer***/
+footer img {
+  padding: 50px 40px 0 0;
+}
