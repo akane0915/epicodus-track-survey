@@ -29,6 +29,15 @@ h2, h3 {
   max-width: 95%;
 }
 
+.error-message{
+  display: none;
+}
+
+.error-class{
+  color: red;
+  font-weight: bolder;
+}
+
 #result{
   padding: 50px 0 0 30px;
   text-align: center;
