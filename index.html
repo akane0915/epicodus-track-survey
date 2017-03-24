@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Epicodus Track Survey</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One" rel="stylesheet">
     <link href="css/bootstrap-3.3.7/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.0.js"></script>
@@ -12,126 +13,133 @@
     <div class="container">
       <header>
         <div class="jumbotron">
-          <h1>What is your destiny?</h1>
+          <h1>What Is Your Destiny?</h1>
         </div>
-        <h2>Take this survey to uncover what your future holds!</h2>
-        <h4>In other words...Find out which Epicodus Code School Track we recommend you take.</h4>
+        <h2>Ever been interested in learning to code?  Take this survey to find out which Epicodus Code School track we recommend you take.</h2>
       </header>
       <main>
-        <p>Ever been interested in learning to code?  Want to set your own schedule or work remotely?  Want to earn more but work less?  Want the opportunity to be selective about your job?  Want to learn to build something you can show off?  Ok, we can't guarantee any or all of these things.  However, we can guarantee that if you attend Epicodus Code School you will learn.  A lot.  Take this survey to find out which Epicodus track we recommend you pursue!  Your destiny awaits...</p>
-        <form>
-          <!---Question 0--->
-          <div class="question">
-            <label for="name">What is your name?</label>
-            <input id="name" class="form-control" type="text" >
-          </div>
-          <!---Question 1--->
-          <div class="question">
-            <label for="personality">I would describe myself as: </label>
-            <select class="form-control" id="personality">
-              <option></option>
-              <option>Creative, Design-oriented</option>
-              <option>Entrepreneurial, Open-minded</option>
-              <option>Process-oriented, structured</option>
-              <option>A person who absolutely hates computers and technology</option>
-              <option>None of the above</option>
-            </select>
-          </div>
+        <p class="description">Want to set your own schedule or work remotely?  Want to earn more but work less?  Want the opportunity to be selective about your job?</p>
+        <p class="description"> Ok, we can't guarantee any or all of these things.  However, we can guarantee that if you attend Epicodus Code School you will learn.  A lot.  Take this survey to find out which Epicodus track we recommend you pursue!</p>
+        <h3>Your destiny awaits...</h3>
+        <div class="grid-container">
+          <div class="row">
+            <div class="col-md-6" class="column-1">
+              <form>
+                <!---Question 0--->
+                <div class="question">
+                  <label for="name">What is your name?</label>
+                  <input id="name" class="form-control" type="text" >
+                </div>
+                <!---Question 1--->
+                <div class="question">
+                  <label for="personality">I would describe myself as: </label>
+                  <select class="form-control" id="personality">
+                    <option></option>
+                    <option>Creative, Design-oriented</option>
+                    <option>Entrepreneurial, Open-minded</option>
+                    <option>Process-oriented, structured</option>
+                    <option>A person who absolutely hates computers and technology</option>
+                    <option>None of the above</option>
+                  </select>
+                </div>
 
-          <!---Question 2--->
-          <div class="question">
-            <label for="work">I want to work for: </label>
-            <select class="form-control" id="work">
-              <option></option>
-              <option>A large, established company</option>
-              <option>A small to medium size company or startup</option>
-              <option>Myself. I want to freelance!</option>
-              <option>What is work? I just like to play.</option>
-              <option>None of the above</option>
-            </select>
-          </div>
+                <!---Question 2--->
+                <div class="question">
+                  <label for="work">I want to work for: </label>
+                  <select class="form-control" id="work">
+                    <option></option>
+                    <option>A large, established company</option>
+                    <option>A small to medium size company or startup</option>
+                    <option>Myself. I want to freelance!</option>
+                    <option>What is work? I just like to play.</option>
+                    <option>None of the above</option>
+                  </select>
+                </div>
 
-          <!---Question 3--->
-          <div class="question">
-            <label for="room">When I designed my room/apartment/home, I: </label>
-            <select class="form-control" id="room">
-              <option></option>
-              <option>Spent time thinking about the color palette</option>
-              <option>Let my mom design it</option>
-              <option>Went to the nearest furnishing store for ideas</option>
-              <option>I don't have a home</option>
-              <option>None of the above</option>
-            </select>
-          </div>
+                <!---Question 3--->
+                <div class="question">
+                  <label for="room">When I designed my room/apartment/home, I: </label>
+                  <select class="form-control" id="room">
+                    <option></option>
+                    <option>Spent time thinking about the color palette</option>
+                    <option>Let my mom design it</option>
+                    <option>Went to the nearest furnishing store for ideas</option>
+                    <option>I don't have a home</option>
+                    <option>None of the above</option>
+                  </select>
+                </div>
 
-          <!---Question 4--->
-          <div class="question">
-            <label for="date">My ideal date is: </label>
-            <select class="form-control" id="date">
-              <option></option>
-              <option>A stroll through the park, food trucks, and a movie</option>
-              <option>Staying in, cooking dinner, and cuddling</option>
-              <option>I don't usually remember my dates for various reasons</option>
-              <option>A Bruce Springsteen concert</option>
-              <option>I don't date...</option>
-            </select>
-          </div>
+                <!---Question 4--->
+                <div class="question">
+                  <label for="date">My ideal date is: </label>
+                  <select class="form-control" id="date">
+                    <option></option>
+                    <option>A stroll through the park, food trucks, and a movie</option>
+                    <option>Staying in, cooking dinner, and cuddling</option>
+                    <option>I don't usually remember my dates for various reasons</option>
+                    <option>A Bruce Springsteen concert</option>
+                    <option>I don't date...</option>
+                  </select>
+                </div>
 
-          <!---Question 5--->
-          <div class="question">
-            <label for="animal">My spirit animal is: </label>
-            <select class="form-control" id="animal">
-              <option></option>
-              <option>A peacock</option>
-              <option>A caterpillar</option>
-              <option>An okapi</option>
-              <option>A tiger</option>
-              <option>I hate animals</option>
-            </select>
-          </div>
+                <!---Question 5--->
+                <div class="question">
+                  <label for="animal">My spirit animal is: </label>
+                  <select class="form-control" id="animal">
+                    <option></option>
+                    <option>A peacock</option>
+                    <option>A caterpillar</option>
+                    <option>An okapi</option>
+                    <option>A tiger</option>
+                    <option>I hate animals</option>
+                  </select>
+                </div>
 
-          <!---Submit button--->
-          <button class="btn btn-info" type="submit">See my destiny</button>
+                <!---Submit button--->
+                <button class="btn btn-info" type="submit">Reveal my destiny!</button>
 
-        </form><!---Form close--->
+              </form><!---Form close--->
+            </div><!---Grid Row 1 Column 1 close--->
+            <div class="col-md-6" class="column-2">
+              <!---Results Section--->
+              <div id="result">
+                <!---CSS Track--->
+                <div id="css">
+                  <h4><span class="name"></span>, we recommend you take the Epicodus track:</h4>
+                  <p>CSS/Design!</p>
+                  <img src="img/css.jpg" alt="CSS/Design image">
+                </div> <!---CSS Track close--->
 
-        <!---Results Section--->
-        <div id="result">
-          <!---CSS Track--->
-          <div id="css">
-            <h4><span class="name"></span>, we recommend you take the Epicodus track:</h4>
-            <p>CSS/Design!</p>
-            <img src="img/css.jpg" alt="CSS/Design image">
-          </div> <!---CSS Track close--->
+                <!---Ruby/Rails Track--->
+                <div id="ruby">
+                  <h4><span class="name"></span>, we recommend you take the Epicodus track:</h4>
+                  <p>Ruby/Rails!</p>
+                  <img src="img/rubyrails.png" alt="Ruby/Rails image">
+                </div> <!---Ruby/Rails Track close--->
 
-          <!---Ruby/Rails Track--->
-          <div id="ruby">
-            <h4><span class="name"></span>, we recommend you take the Epicodus track:</h4>
-            <p>Ruby/Rails!</p>
-            <img src="img/rubyrails.png" alt="Ruby/Rails image">
-          </div> <!---Ruby/Rails Track close--->
+                <!---C#/.NET Track--->
+                <div id="csharp">
+                  <h4><span class="name"></span>, we recommend you take the Epicodus track:</h4>
+                  <p>C#/.NET!</p>
+                  <img src="img/csharp.png" alt="C#/.NET image">
+                </div> <!---C#/.NET Track close--->
 
-          <!---C#/.NET Track--->
-          <div id="csharp">
-            <h4><span class="name"></span>, we recommend you take the Epicodus track:</h4>
-            <p>C#/.NET!</p>
-            <img src="img/csharp.png" alt="C#/.NET image">
-          </div> <!---C#/.NET Track close--->
+                <!---PHP/Drupal Track--->
+                <div id="php">
+                  <h4><span class="name"></span>, we recommend you take the Epicodus track:</h4>
+                  <p>PHP/Drupal!</p>
+                  <img src="img/php.jpeg" alt="PHP/Drupal image">
+                </div> <!---C#/.NET Track close--->
 
-          <!---PHP/Drupal Track--->
-          <div id="php">
-            <h4><span class="name"></span>, we recommend you take the Epicodus track:</h4>
-            <p>PHP/Drupal!</p>
-            <img src="img/php.jpeg" alt="PHP/Drupal image">
-          </div> <!---C#/.NET Track close--->
-
-          <!---No Track--->
-          <div id="no-track">
-            <p><span class="name"></span>, we recommend you consider other alternatives to programming...</p>
-            <img src="img/no-track.jpeg" alt="no-track">
-          </div> <!---No Track close--->
-
-        </div><!---Results Section close--->
+                <!---No Track--->
+                <div id="no-track">
+                  <p><span class="name"></span>, we recommend you consider other alternatives to programming...</p>
+                  <img src="img/no-track.jpeg" alt="no-track">
+                </div> <!---No Track close--->
+              </div><!---Results Section close--->
+            </div><!---Grid Row 1 Column 2 close--->
+          </div><!---Grid Row 1 close--->
+        </div><!---Grid Container close--->
       </main>
     </div> <!---Container close--->
   </body>
