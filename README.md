@@ -6,7 +6,7 @@
 
 ## Description
 
-_This application asks the user 5 questions about interests, work environments, and personality.  The user fills out the answers and clicks the submission button.  Upon submission, the JavaScript logic determines which Epicodus track the user is recommended to pursue (Ruby/Rails, CSS/Design, Java/Android, or no track._
+_This application asks the user 5 questions about interests, work environments, and personality.  The user fills out the answers and clicks the submission button.  Upon submission, the JavaScript logic determines which Epicodus track the user is recommended to pursue (Ruby/Rails, CSS/Design, C#/.NET, or no track._
 
 ## Setup/Installation Requirements
 
