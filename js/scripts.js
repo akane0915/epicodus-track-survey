@@ -2,11 +2,18 @@
 
 // Frontend Logic
 $(function(){
+
   $("form").submit(function(event){
     event.preventDefault();
     var personalityInput = $("#personality").val();
     var workInput = $("#work").val();
     var nameInput = $("#name").val();
+
+    $("#ruby").hide();
+    $("#css").hide();
+    $("#csharp").hide();
+    $("#no-track").hide();
+    $("#php").hide();
 
     $(".name").text(nameInput);
 
@@ -29,7 +36,5 @@ $(function(){
       $("#php").show();
       }
     }
-
-
   }); // Form submit function close
 }); // Frontend Document Ready function close
