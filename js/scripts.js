@@ -6,6 +6,9 @@ $(function(){
     event.preventDefault();
     var personalityInput = $("#personality").val();
     var workInput = $("#work").val();
+    var nameInput = $("#name").val();
+
+    $(".name").text(nameInput);
 
     if (personalityInput === "Creative, Design-oriented"){
         $("#css").show();
@@ -26,5 +29,7 @@ $(function(){
       $("#php").show();
       }
     }
+
+
   }); // Form submit function close
 }); // Frontend Document Ready function close
