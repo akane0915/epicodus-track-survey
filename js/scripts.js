@@ -18,22 +18,22 @@ $(function(){
     $(".name").text(nameInput);
 
     if (personalityInput === "Creative, Design-oriented"){
-        $("#css").show();
+        $("#css").fadeIn(2000);
     } else if (personalityInput === "Entrepreneurial, Open-minded"){
-        $("#ruby").show();
+        $("#ruby").fadeIn(2000);
     } else if (personalityInput === "Process-oriented, structured"){
-      $("#csharp").show();
+      $("#csharp").fadeIn(2000);
     } else if (personalityInput === "A person who absolutely hates computers and technology"){
-      $("#no-track").show();
+      $("#no-track").fadeIn(2000);
     } else {
       if (workInput === "A large, established company"){
-        $("#csharp").show();
+        $("#csharp").fadeIn(2000);
       } else if (workInput === "A small to medium size company or startup"){
-        $("#ruby").show();
+        $("#ruby").fadeIn(2000);
       } else if (workInput === "Myself. I want to freelance!"){
-        $("#css").show();
+        $("#css").fadeIn(2000);
       } else {
-      $("#php").show();
+      $("#php").fadeIn(2000);
       }
     }
   }); // Form submit function close
