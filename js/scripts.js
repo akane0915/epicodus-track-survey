@@ -1,14 +1,11 @@
 // Backend Logic
 
-
-
 // Frontend Logic
 $(function(){
   $("form").submit(function(event){
     event.preventDefault();
     var personalityInput = $("#personality").val();
     var workInput = $("#work").val();
-    var roomInput = $("#room").val();
 
     if (personalityInput === "Creative, Design-oriented"){
         $("#css").show();
@@ -19,15 +16,15 @@ $(function(){
     } else if (personalityInput === "A person who absolutely hates computers and technology"){
       $("#no-track").show();
     } else {
+      if (workInput === "A large, established company"){
+        $("#csharp").show();
+      } else if (workInput === "A small to medium size company or startup"){
+        $("#ruby").show();
+      } else if (workInput === "Myself. I want to freelance!"){
+        $("#css").show();
+      } else {
       $("#php").show();
+      }
     }
-
   }); // Form submit function close
-
-
-
-
-
-
-
-}); // Frontend function close
+}); // Frontend Document Ready function close
